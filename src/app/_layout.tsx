@@ -3,11 +3,12 @@ import { Stack } from 'expo-router';
 export default function RootLayout() {
     return (
         <Stack
-            screenOptions={{
-                headerShown: false
-            }}
+        // screenOptions={{
+        //     headerShown: false
+        // }}
         >
-            <Stack.Screen name='tabs-folder-name/tabOne' options={{ title: 'Home' }} />
+            {/* <Stack.Screen name='index' />
+            <Stack.Screen name='tabs-folder-name' options={{ title: 'Tabs' }} /> */}
         </Stack>
     );
 }
