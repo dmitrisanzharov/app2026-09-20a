@@ -1,49 +1,50 @@
 {
-    "expo": {
-        "name": "app2026-09-20a",
-        "slug": "app2026-09-20a",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/expo.icon/Assets/grid.png",
-        "scheme": "app20260920a",
-        "userInterfaceStyle": "automatic",
-        "ios": {
-            "icon": "./assets/expo.icon"
-        },
-        "android": {
-            "adaptiveIcon": {
-                "backgroundColor": "#E6F4FE",
-                "foregroundImage": "./assets/expo.icon/Assets/grid.png",
-                "backgroundImage": "./assets/expo.icon/Assets/grid.png",
-                "monochromeImage": "./assets/expo.icon/Assets/grid.png"
-            },
-            "predictiveBackGestureEnabled": false
-        },
-        "web": {
-            "output": "static",
-            "favicon": "./assets/expo.icon/Assets/grid.png"
-        },
-        "plugins": [
-            "expo-router",
-            [
-                "expo-splash-screen",
-                {
-                    "backgroundColor": "#208AEF",
-                    "image": "./assets/expo.icon/Assets/grid.png",
-                    "imageWidth": 76
-                }
-            ]
-        ],
-        "experiments": {
-            "typedRoutes": true,
-            "reactCompiler": true
-        },
-        "extra": {
-            "router": {},
-            "eas": {
-                "projectId": "ce5b7e6a-1020-4bbf-ac01-b59f7af7b8bc"
-            }
-        },
-        "owner": "dmitrisanzharovs-team"
-    }
+  "expo": {
+    "name": "app2026-09-20a",
+    "slug": "app2026-09-20a",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/expo.icon/Assets/grid.png",
+    "scheme": "app20260920a",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/expo.icon/Assets/grid.png",
+        "backgroundImage": "./assets/expo.icon/Assets/grid.png",
+        "monochromeImage": "./assets/expo.icon/Assets/grid.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.dmitrisanzharovsteam.app20260920a"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/expo.icon/Assets/grid.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/expo.icon/Assets/grid.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ce5b7e6a-1020-4bbf-ac01-b59f7af7b8bc"
+      }
+    },
+    "owner": "dmitrisanzharovs-team"
+  }
 }
